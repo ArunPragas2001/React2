@@ -80,7 +80,7 @@ export default App;
  */
 
 
-import StudentList from "./component/StudentList";
+/* import StudentList from "./component/StudentList";
 
 function App()
 {
@@ -89,9 +89,20 @@ function App()
   );
 
 }
+export default App; */
+
+
+import LoginForm from "./component/LoginForm";
+
+function App()
+{
+  return(
+    <LoginForm/>
+
+  );
+
+}
 export default App;
-
-
 
 
 
