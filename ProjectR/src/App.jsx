@@ -110,10 +110,30 @@ export default App;
  */
 
 
-import TitleCounter from "./component/TitleCounter";
+/* import TitleCounter from "./component/TitleCounter";
 
 function App()
 {
-  return <TitleCounter/>
+
+  return (
+  <>
+  < TitleCounter/>
+  < TitleCounter/>
+  
+  </>
+  
+  );
   
 }
+export default App; */
+
+import UserList from "./component/UserList";
+
+function App()
+{
+  return ( 
+  <UserList/>);
+
+}
+
+export default App;
