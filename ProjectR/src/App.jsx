@@ -92,7 +92,7 @@ function App()
 export default App; */
 
 
-import LoginForm from "./component/LoginForm";
+/* import LoginForm from "./component/LoginForm";
 
 function App()
 {
@@ -107,3 +107,13 @@ export default App;
 
 
 
+ */
+
+
+import TitleCounter from "./component/TitleCounter";
+
+function App()
+{
+  return <TitleCounter/>
+  
+}
