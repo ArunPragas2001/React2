@@ -1,16 +1,12 @@
 import "./App.css";
 import Form from "./component/Form";
-import UseCallbackComponent from "./component/UseCallBackComponent";
 
-
-function App()
-{
-  return(
-    <>
-    <Form/>
-    
-    </>
-
+function App() {
+  return (
+    <div>
+      <Form />
+    </div>
   );
-
 }
+
+export default App;
